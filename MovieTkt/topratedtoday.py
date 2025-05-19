@@ -123,7 +123,7 @@ class TMDBMovieFetcher:
 
 def main():
     # Your TMDB API key
-    API_KEY = "f7d8cdf5bedebe021fddbeeb8aff7e6e"  # Replace with your actual API key
+    API_KEY = ""  # Replace with your actual API key
     
     # Create instance of TMDBMovieFetcher
     fetcher = TMDBMovieFetcher(API_KEY)
