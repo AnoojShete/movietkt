@@ -3,8 +3,8 @@ import requests
 
 # Initialize TMDb with your API key
 tmdb = TMDb()
-tmdb.api_key = 'f7d8cdf5bedebe021fddbeeb8aff7e6e'  # Replace with your TMDb API key
-tmdb.language = 'en'  # Set language to English
+tmdb.api_key = ':)' 
+tmdb.language = 'en'
 
 # Function to fetch movie details by movie ID or title
 def fetch_movie_details(movie_name):
