@@ -3,7 +3,7 @@ import requests
 
 
 tmdb = TMDb()
-tmdb.api_key = 'f7d8cdf5bedebe021fddbeeb8aff7e6e'  # Replace with your TMDb API key
+tmdb.api_key = ''  # Replace with your TMDb API key
 tmdb.language = 'en'
 
 def getMovie(movie_name):
