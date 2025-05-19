@@ -16,7 +16,7 @@ def get_lat_long_osm(location):
     
     # Set a custom user-agent to identify your application
     headers = {
-        'User-Agent': 'MyGeocodingApp/1.0 (randacc0008@gmail.com)'  # Custom user agent
+        'User-Agent': 'MyGeocodingApp/1.0 (yourmail@gmail.com)'  # Custom user agent
     }
     
     # Make the request to the OSM Nominatim API
