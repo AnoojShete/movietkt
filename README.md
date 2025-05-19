@@ -1,1 +1,1 @@
-Movie Ticket Booking System using Tkinter python
+Movie Ticket Booking System
