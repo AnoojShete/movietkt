@@ -13,7 +13,7 @@ def get_currently_running_movies(api_key):
         return []
 
 # Replace 'your_api_key_here' with your actual TMDb API key
-api_key = 'f7d8cdf5bedebe021fddbeeb8aff7e6e'
+api_key = 'your_api_key_here'
 movies = get_currently_running_movies(api_key)
 
 # Display movie titles and other relevant details
