@@ -1,7 +1,7 @@
 import mysql.connector as sqltor
 #import moviedetails
 
-def connectDatabase(host="localhost", user="root", password="Anooj@23", db="Movietkt"):	
+def connectDatabase(host="localhost", user="root", password="yourpass", db="yourdb"):	
 	try:
 		global mydb
 		mydb = sqltor.connect(
@@ -96,12 +96,3 @@ def createTheater(theater_name, location, total_seats):
 	except Exception as e:
 		print(f"Something went wrong while inserting into Theaters! {e}")
 
-
-'''
-connectDatabase()
-# createCustomer("Anooj", "Shete", "anooj@gmail.com", 7385776309)
-movie_name = input("Enter a movie name: ")
-import moviedetails
-movie_info = moviedetails.getMovie(movie_name)
-createMovie(movie_info['title'], movie_info['genre'], movie_info['duration'], movie_info['director'], movie_info['releasedate'], movie_info['rating'], movie_info['description'], movie_info['poster'])
-'''
